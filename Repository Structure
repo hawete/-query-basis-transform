@@ -1,0 +1,20 @@
+query-basis-transform/
+├── README.md
+├── requirements.txt
+├── config/
+│   └── default.yaml
+├── scripts/
+│   ├── train.sh
+│   └── eval.sh
+├── src/
+│   ├── __init__.py
+│   ├── trainer.py
+│   ├── evaluator.py
+│   ├── model.py
+│   ├── utils.py
+│   └── basis_transform.py
+├── data/
+│   └── README.md  # Instructions or scripts for downloading MS MARCO, BEIR, etc.
+├── main.py
+└── appendix/
+    └── methods.md  # Supplementary explanations for methods or experiments
